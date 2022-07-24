@@ -39,4 +39,9 @@
   height: 45px;
   border-radius: 10px;
   cursor: pointer;
+  font-size: 18px;
+}
+.container .content ul li button:hover{
+  background-color: black;
+  color: white;
 }
