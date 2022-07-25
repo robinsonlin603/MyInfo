@@ -119,12 +119,7 @@ const About = () => {
         <ul className={styles.ulExpreience}>
           <li>
             <p>
-              Web Trainee, WeHelp Bootcamp
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              2022.01-2022.07
+              <span>2022.01-2022.07</span>Web Trainee, WeHelp Bootcamp
             </p>
             <ul>
               <li>
@@ -133,9 +128,9 @@ const About = () => {
                 development and 6 weeks aiming at Frontend specialization.
               </li>
               <li>
-                Developed a Full Stack e-commerce project
+                Developed a Full Stack e-commerce project&nbsp;
                 <Link href="http://35.153.147.80:3000/">
-                  <a target="_blank"> (Taipei Day Trip Website)</a>
+                  <a target="_blank">Taipei Day Trip Website</a>
                 </Link>
                 .
               </li>
@@ -144,19 +139,18 @@ const About = () => {
                 project through Git flow.
               </li>
               <li>
-                Developed an individual project
+                Developed an individual project&nbsp;
                 <Link href="https://theselfie-59eaf.web.app/">
-                  <a target="_blank"> (Selfie)</a>
+                  <a target="_blank">Selfie</a>
                 </Link>
-                focusing on Frontend technique.
+                &nbsp;focusing on Frontend technique.
               </li>
             </ul>
           </li>
           <li>
             <p>
+              <span>2020.08-2022.01</span>
               Clinical Sales Representative, HI-Clearance INC.
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              2020.08-2022.01
             </p>
             <ul>
               <li>
@@ -167,10 +161,8 @@ const About = () => {
           </li>
           <li>
             <p>
+              <span>2018.09-2020.06</span>
               Management Trainee, Hung-Yuang Co.
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              2018.09-2020.06
             </p>
             <ul>
               <li>Control ingredients cost within 30% of total revenue. </li>
@@ -178,10 +170,8 @@ const About = () => {
           </li>
           <li>
             <p>
+              <span>2017.09-2018.06</span>
               Pharmacist assistant, HealthMed Pharmacy
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              2017.09-2018.06
             </p>
             <ul>
               <li>Achieve headquarters revenue target.</li>
@@ -190,9 +180,8 @@ const About = () => {
         </ul>
         <p className={styles.titleTopBorder}>Education</p>
         <p className={styles.ulEducation}>
-          Health and Nutrition, Taipei Medical University. &nbsp;&nbsp;
-          &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 2022.01-2022.07
+          <span>2022.01-2022.07</span>
+          Health and Nutrition, Taipei Medical University.
         </p>
       </div>
     </>

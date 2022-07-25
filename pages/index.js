@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.container}>
-        <div>
+        <div className={styles.photo}>
           <Image
             src="/myphoto.png"
             alt="Picture of author"
