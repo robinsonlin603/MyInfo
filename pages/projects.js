@@ -132,14 +132,6 @@ const Projects = () => {
                 </li>
                 <li>
                   <Image
-                    src="/Flask.png"
-                    alt="Picture of flask"
-                    width={36}
-                    height={30}
-                  />
-                </li>
-                <li>
-                  <Image
                     src="/mysql.png"
                     alt="Picture of mysql"
                     width={30}
