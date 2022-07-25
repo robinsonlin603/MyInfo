@@ -133,9 +133,9 @@ const About = () => {
                 development and 6 weeks aiming at Frontend specialization.
               </li>
               <li>
-                Developed a Full Stack e-commerce project
+                Developed a Full Stack e-commerce project&nbsp;
                 <Link href="http://35.153.147.80:3000/">
-                  <a target="_blank"> (Taipei Day Trip Website)</a>
+                  <a target="_blank">Taipei Day Trip Website</a>
                 </Link>
                 .
               </li>
@@ -144,11 +144,11 @@ const About = () => {
                 project through Git flow.
               </li>
               <li>
-                Developed an individual project
+                Developed an individual project&nbsp;
                 <Link href="https://theselfie-59eaf.web.app/">
-                  <a target="_blank"> (Selfie)</a>
+                  <a target="_blank">Selfie</a>
                 </Link>
-                focusing on Frontend technique.
+                &nbsp;focusing on Frontend technique.
               </li>
             </ul>
           </li>
