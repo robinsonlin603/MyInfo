@@ -62,7 +62,7 @@ const About = () => {
           </li>
           <li>
             <Image
-              src="/flask.png "
+              src="/flask.png"
               alt="Picture of Flask"
               width={100}
               height={100}
