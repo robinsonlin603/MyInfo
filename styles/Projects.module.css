@@ -4,6 +4,7 @@
 }
 .container h1{
     font-size: 45px;
+    margin-left: 20px;
 }
 .container .projects{
     display: flex;
@@ -26,7 +27,7 @@
 }
 .container .projects .project .content{
     display: none;
-    position: fixed;
+    position: absolute;
     width: 460px;
     text-align: center;
     z-index: 5;
@@ -38,7 +39,7 @@
 }
 .container .projects .project .background{
     display: none;
-    position: fixed;
+    position: absolute;
     background-color: black;
     opacity: 0.7;
     width: 460px;
@@ -62,4 +63,37 @@
 .container .projects .project .content .taipei{
     font-size: 35px;
     margin: 35px 0px;
+}
+
+@media (max-width:1000px) {
+    .container .projects{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container .projects .project{
+        margin: auto;
+    }
+}
+@media (max-width:500px) {
+    .container .projects .project .background{
+        width: 280px;
+        height: 280px;
+    }
+    .container .projects .project .content{
+        width: 280px;
+        height: 280px;
+    }
+    .container .projects .project .photo{
+        width: 280px;
+    }
+    .container .projects .project .content h1{
+        margin: 10px 0px;
+        font-size: 25px;
+    }
+    .container .projects .project .content .taipei{
+        font-size: 20px;
+    }
+    .container .projects .project .content p{
+        font-size: 15px;
+    }
 }

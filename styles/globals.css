@@ -39,3 +39,9 @@ footer {
   color: #4979ff;
   text-decoration: underline;
 }
+
+@media (max-width:450px) {
+  nav {
+    font-size: 15px;
+  }
+}

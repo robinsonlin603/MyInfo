@@ -119,12 +119,7 @@ const About = () => {
         <ul className={styles.ulExpreience}>
           <li>
             <p>
-              Web Trainee, WeHelp Bootcamp
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              2022.01-2022.07
+              <span>2022.01-2022.07</span>Web Trainee, WeHelp Bootcamp
             </p>
             <ul>
               <li>
@@ -154,9 +149,8 @@ const About = () => {
           </li>
           <li>
             <p>
+              <span>2020.08-2022.01</span>
               Clinical Sales Representative, HI-Clearance INC.
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              2020.08-2022.01
             </p>
             <ul>
               <li>
@@ -167,10 +161,8 @@ const About = () => {
           </li>
           <li>
             <p>
+              <span>2018.09-2020.06</span>
               Management Trainee, Hung-Yuang Co.
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              2018.09-2020.06
             </p>
             <ul>
               <li>Control ingredients cost within 30% of total revenue. </li>
@@ -178,10 +170,8 @@ const About = () => {
           </li>
           <li>
             <p>
+              <span>2017.09-2018.06</span>
               Pharmacist assistant, HealthMed Pharmacy
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              2017.09-2018.06
             </p>
             <ul>
               <li>Achieve headquarters revenue target.</li>
@@ -190,9 +180,8 @@ const About = () => {
         </ul>
         <p className={styles.titleTopBorder}>Education</p>
         <p className={styles.ulEducation}>
-          Health and Nutrition, Taipei Medical University. &nbsp;&nbsp;
-          &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 2022.01-2022.07
+          <span>2022.01-2022.07</span>
+          Health and Nutrition, Taipei Medical University.
         </p>
       </div>
     </>

@@ -2,11 +2,12 @@
   margin: 10px auto;
   max-width: 960px;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   gap:15px
 }
 .container .content{
   padding-left: 10px;
+  margin-right: 10px;
 }
 .container .content h1{
   font-size: 75px;
@@ -44,4 +45,13 @@
 .container .content ul li button:hover{
   background-color: black;
   color: white;
+}
+
+@media (max-width:650px) {
+  .container{
+    grid-template-columns: 1fr;
+  }
+  .container .photo{
+    margin: 0px auto;
+  }
 }
